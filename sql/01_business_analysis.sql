@@ -1,3 +1,5 @@
+SELECT * FROM vw_business_overview;
+
 SELECT
     COUNT(DISTINCT o.order_id) AS total_orders,
     COUNT(DISTINCT o.customer_id) AS total_customers,
